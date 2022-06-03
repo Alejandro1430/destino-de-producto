@@ -1,0 +1,163 @@
+body{ 
+    width: 100vw;
+    height: auto;
+    padding: 150px 0 0 0;
+    margin: 0;
+}
+
+.navegacion{ 
+ position: fixed;
+ width: 100%;
+ height: 100px;
+ margin-top: -150px;
+}
+
+.link { 
+    background-color: rgb(125, 229, 250);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.9;
+    padding-right: 15px;
+ }
+
+
+.link2{ 
+    background-color: rgba(10, 255, 255, 0.843);
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: x-large;
+ }
+
+ .imagen{ 
+    width: 180px;
+    height: 100px;
+ }
+
+ h1{ 
+    text-align: center;
+ }
+
+ h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+.carros{
+    justify-content: center;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.autos{
+    display: inline-block;
+}
+
+.fotos{
+    width: 300px;
+    height: 240px;
+    margin: 5px;
+    padding: 2px;
+    background-color: rgb(5, 5, 5);
+    border-radius: 0.4rem;
+}
+
+.consejo1{
+   margin-top: 50px;
+   margin-left: 25px;
+}
+
+.consejos{
+text-align: center;
+ }
+
+ .consejo2{
+font-size: large;
+}
+
+.foto1{
+align-items: center;
+display: flex;
+width: 100%;
+justify-content: space-around;
+
+}
+
+h3{
+text-align: center;
+margin-top: 60px;
+ }
+
+.formulario{
+    display: flex;
+    justify-content: center;
+     }
+
+.email{
+    height: 30px;
+    width: 200px;
+    border-radius: 0.4rem;
+}
+
+.enviar{
+    margin-left: 10px;
+    width: 100px;
+    height: 34px;
+    border-radius: 0.4rem;
+}
+
+iframe{
+margin-left: 300px;
+margin-top: 40px;
+}
+
+.autoss{
+    width: 21%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 0.7rem;
+}
+
+.cards{
+    width: 100%;
+    height: 50%;
+}
+
+.auto1{
+background-color:  rgb(17, 196, 255);
+border: 1px solid black;
+padding: 10px;
+border-radius: 0.5rem;
+}
+
+.auto2{
+    background-color:  rgb(17, 196, 255);
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 0.5rem;
+    }
+
+.auto3{
+background-color: rgb(17, 196, 255);
+border: 1px solid black;
+padding: 10px;
+border-radius: 0.5rem;
+        }
+
+.auto4{
+background-color:  rgb(17, 196, 255);
+border: 1px solid black;
+padding: 10px;
+border-radius: 0.5rem;
+}
+
+@media (max-width: 400px){
+}
